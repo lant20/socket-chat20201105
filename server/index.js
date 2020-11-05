@@ -1,8 +1,9 @@
-const app = require(`express`)();
+const express = require(`express`)
+const app = express();
 const server = require(`http`).Server(app);
 const io = require(`socket.io`)(server);
 
-const PORT = process.env.PORT || 5049;
+const PORT = process.env.PORT || 9405;
 
 app.get('/express', function(req, res){
 	res.send('Welcome to Express');
@@ -61,6 +62,6 @@ io.on('connection', function(socket){
   
 });
 
-server.listen(PORT, ()=>{
+server.listen(PORT, `10.0.0.10`, ()=>{
   console.log(`Connected to port: ${PORT}`);
 });
