@@ -1,4 +1,8 @@
 {
+  "engines": {
+    "node": "14.x"
+  },
+
   "name": "socket-chat-20201105",
   "version": "1.0.0",
   "description": "test server for heroku",
