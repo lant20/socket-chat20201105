@@ -1,0 +1,28 @@
+{
+  "name": "socket-chat-20201105",
+  "version": "1.0.0",
+  "description": "test server for heroku",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lant20/socket-chat20201105.git"
+  },
+  "keywords": [
+    "heroku",
+    "socket",
+    "chat"
+  ],
+  "author": "lant20",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lant20/socket-chat20201105/issues"
+  },
+  "homepage": "https://github.com/lant20/socket-chat20201105#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  }
+}
