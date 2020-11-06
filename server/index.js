@@ -62,6 +62,6 @@ io.on('connection', function(socket){
   
 });
 
-server.listen(PORT, `10.0.0.10`, ()=>{
+server.listen(PORT, ()=>{
   console.log(`Connected to port: ${PORT}`);
 });
