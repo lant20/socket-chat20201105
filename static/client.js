@@ -96,7 +96,7 @@
 			this.scrollToBottom();
 			
 			//连接websocket后端服务器
-			this.socket = io.connect('ws://10.0.0.10:5049');
+			this.socket = io.connect('ws://socket-chat-20201105.herokuapp.com/');
 			
 			//告诉服务器端有用户登录
 			this.socket.emit('login', {userid:this.userid, username:this.username});
